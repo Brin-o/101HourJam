@@ -1,0 +1,15 @@
+Things to do:
+1. Character movement
+	a. Turn around when reaching a wall
+	b. Start/Pause on button input
+	
+2. Trapdoor that the player can move over
+	a. One of the following
+		a1. Click on ground to place a trapdoor
+		a2. Click on a preplaced trapdoor to open it
+		
+3. Obstacles/Rewards
+	a. Chest/Mummy wrapping paper (toilet paper?)
+	b. spikes
+	c. patroling enemy like a raider/mummy
+		c1. Can probablly reuse the character movement script
