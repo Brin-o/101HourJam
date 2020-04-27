@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-score ++;
-instance_destroy(other);
+if(!other.hit)
+	o_gameManager.roomScore ++;
+//Visual thigns happen on the toilet paper code.

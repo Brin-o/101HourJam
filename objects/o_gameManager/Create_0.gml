@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+roomScore = 0;
+global.gameSpeed = 0;
 
 //Amount of trap doors per level;
 

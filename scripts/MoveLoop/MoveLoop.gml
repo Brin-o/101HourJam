@@ -25,7 +25,7 @@ var dir = point_direction(0, 0, _xDir, _yDir);
 
 	
 var movedSuccessfully = false;
-for (var i = 0; i <= 80; i += 10) {
+for (var i = 0; i <= 90; i += 10) {
 	
 	//breaks the movement loop if directions are 0
 	//super clunky but it gets the job done
@@ -47,18 +47,16 @@ for (var i = 0; i <= 80; i += 10) {
 			movedSuccessfully = true;
 			break;
 			
-		} else {
-			//switched between inversed and normal 
+		}
+		if (!place_free( x + (20 * _xDir), y)){
+				//switched between inversed and normal
+				if(inversed)
+					inversed = false;
+				else
+					inversed = true;
 			
-			
-			
-			if(inversed)
-				inversed = false;
-			else
-				inversed = true;
-			
-			movedSuccessfully = true;
-			break;
+				movedSuccessfully = true;
+				break;
 		}
 	}
 		
@@ -67,3 +65,11 @@ for (var i = 0; i <= 80; i += 10) {
 	}
 		
 }
+/*
+var xTarget = x + lengthdir_x(pixelsPerFrame, dir);
+var yTarget = y + lengthdir_y(pixelsPerFrame, dir);
+
+if (place_free(xTarget, yTarget)){
+	x = xTarget;
+	y = yTarget;
+}*/

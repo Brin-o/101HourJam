@@ -1,2 +1,3 @@
 /// @description Reset score
-score = 0;
+roomScore = 0;
+roomScoreMax = instance_number(o_toiletPaper);

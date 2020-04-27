@@ -1,8 +1,8 @@
 {
-    "id": "45a39695-b3ff-4a3b-bdf2-989da46be299",
+    "id": "6a3a25bb-3d8d-4dab-8127-10e23ee90720",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "moveSpeed",
+    "name": "EnterNewRoom",
     "IsCompatibility": false,
     "IsDnD": false
 }
