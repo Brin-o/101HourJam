@@ -18,3 +18,23 @@ if (xDir != 0 or yDir != 0) {
 	TweenEasyMove(x, y, xTarget, y, 0, 1, EaseLinear);*/
 
 }
+
+
+//Bounce when hitting walls
+//if inversed 
+
+//Damage
+if dam {
+	grv = 0;
+	xDir = 0;
+	if image_xscale > 0
+	   {
+	   image_xscale -= 0.02;
+	   image_yscale = image_xscale;
+	   }
+	else
+	   {
+	   instance_create_layer(x,y,"Instances",obj_explode);
+	   instance_destroy();
+	  }
+}

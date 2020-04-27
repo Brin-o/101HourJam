@@ -14,17 +14,16 @@ Things to do:
 		a1. [Done] Click on ground to place a trapdoor
 			//This is done. Esentially it just removes the collision tag and plays a fancy animation.
 			Improvments:
-				a. Replace the sprite of the tile with an actual trap door!
-				b. Create an "opening the trapdoor animation" and figure out how that would work?
+				a. [Done] Replace the sprite of the tile with an actual trap door!
+				b. [Done] Create an "opening the trapdoor animation" and figure out how that would work?
 				
-		a2. Click on a preplaced trapdoor to open it
+		a2. [Done] Click on a preplaced trapdoor to open it
 		
 3. Obstacles/Rewards
 	a. Chest/Mummy wrapping paper (toilet paper?)
 	b. Spikes
-		b1. Spikes that move up and down into the ground! (use EasyTweenMove)
+		b1. [Done] Spikes that move up and down into the ground! (use EasyTweenMove)
 	c. patroling enemy like a raider/mummy
 		c1. Can probablly reuse the character movement script
 		
 4. Scoring system
-	

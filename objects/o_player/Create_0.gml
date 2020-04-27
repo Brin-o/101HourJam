@@ -4,6 +4,8 @@ xDir = 0;
 grv = 1;
 inversed = false;
 
+//Damage Taken
+dam = false;
 
 //tween testing
 //TweenEasyScale(1, 1, 1.5, 1.5, 0, 30, EaseInOutQuad);
