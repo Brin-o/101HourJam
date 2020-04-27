@@ -27,4 +27,7 @@ Things to do:
 		c1. Can probablly reuse the character movement script
 		
 4. Scoring system
+
+
+blapgoasfds
 	
