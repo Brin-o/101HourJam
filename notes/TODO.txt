@@ -20,18 +20,13 @@ Things to do:
 		a2. [Done] Click on a preplaced trapdoor to open it
 		
 3. Obstacles/Rewards
-	a. Chest/Mummy wrapping paper (toilet paper?)
+	a. [Done - needs polish] Chest/Mummy wrapping paper (toilet paper?)
 	b. Spikes
 		b1. [Done] Spikes that move up and down into the ground! (use EasyTweenMove)
 	c. [Done] patroling enemy like a raider/mummy
 		c1. [Done] Can probablly reuse the character movement script
 		
-<<<<<<< HEAD
-4. Scoring system
-=======
-4. Scoring system
+4. Scoring system [Done - needs polish]
 
+5. Level loading doors
 
-blapgoasfds
-	
->>>>>>> master

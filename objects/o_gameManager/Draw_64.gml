@@ -6,6 +6,7 @@ draw_text(0, 0, string("Trap Doors Left: ") + string(global.trapDoorNum));
 
 //Level Number
 draw_text(room_width/2, 0, string("Level: ") + string(global.lv));
+draw_text(room_width/2, 40, string("Toilet paper collected ") + string(score))
 
 
 

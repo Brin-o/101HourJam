@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "415247c9-6e3f-4eb7-be77-e4edd973e652",
+            "Value": {
+                "id": "c1aa9556-80e5-4b41-8645-f177d492bb2f",
+                "resourcePath": "sprites\\s_toiletPaper\\s_toiletPaper.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43cff782-2476-4f2a-ad83-12423da4e388",
             "Value": {
                 "id": "8c1d94a8-225e-4a01-b3b5-1010da5809b6",
@@ -724,6 +732,14 @@
                 "id": "0ef4b46e-6263-4419-a329-bf9fac63c2e5",
                 "resourcePath": "scripts\\TGMS_NULL__\\TGMS_NULL__.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "54181db5-0e60-47dd-8ae3-305a8e20fa6d",
+            "Value": {
+                "id": "642cff6a-e1ef-4364-bcf9-73b029fb2cf3",
+                "resourcePath": "views\\54181db5-0e60-47dd-8ae3-305a8e20fa6d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1788,6 +1804,14 @@
                 "id": "e5788d15-b42d-4098-b601-2ad7533ab441",
                 "resourcePath": "datafiles_yy\\TweenGMS\\Update Log.txt.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "cf259cf3-6767-43b3-8c77-a4c1bbf3555f",
+            "Value": {
+                "id": "e9a2447b-08b4-4b07-a237-c19d66812c4a",
+                "resourcePath": "objects\\o_toiletPaper\\o_toiletPaper.yy",
+                "resourceType": "GMObject"
             }
         },
         {
