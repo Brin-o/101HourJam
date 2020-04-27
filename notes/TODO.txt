@@ -26,4 +26,12 @@ Things to do:
 	c. patroling enemy like a raider/mummy
 		c1. Can probablly reuse the character movement script
 		
+<<<<<<< HEAD
 4. Scoring system
+=======
+4. Scoring system
+
+
+blapgoasfds
+	
+>>>>>>> master
