@@ -12,7 +12,7 @@ var _yDir = argument2;
 
 
 if (inversed){
-	_xDir *= -1;	
+	_xDir *= -1;
 }
 
 //check if a solid is below the player

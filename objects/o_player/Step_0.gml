@@ -20,21 +20,38 @@ if (xDir != 0 or yDir != 0) {
 }
 
 
-//Bounce when hitting walls
-//if inversed 
+ 
 
 //Damage
 if dam {
 	grv = 0;
 	xDir = 0;
-	if image_xscale > 0
-	   {
-	   image_xscale -= 0.02;
-	   image_yscale = image_xscale;
-	   }
-	else
-	   {
-	   instance_create_layer(x,y,"Instances",obj_explode);
-	   instance_destroy();
-	  }
+	if image_xscale > 0 {
+		image_xscale -= 0.02;
+		image_yscale = image_xscale;
+	}
+	else {
+		instance_create_layer(x,y,"Instances",obj_explode);
+		instance_destroy();
+	}
+}
+
+//Bounce when hitting walls
+if inversed and bumpCheck {
+	bump = true;
+}
+if bump {
+	if growCheck and image_xscale < 1.2 {
+		image_xscale += 0.05;
+		image_yscale = image_xscale;
+		if image_xscale >= 1.2 {
+			growCheck = false;
+		}
+	}
+	if !growCheck and image_xscale != 1 { 
+		image_xscale = 1;
+		image_yscale = image_xscale;
+		bump = false;
+		bumpCheck = false;
+	}
 }
