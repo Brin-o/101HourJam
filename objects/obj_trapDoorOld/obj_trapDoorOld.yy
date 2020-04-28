@@ -1,48 +1,38 @@
 {
-    "id": "6291be58-abce-448a-9e01-208e80b3cbb3",
+    "id": "b99ad2cd-6342-429c-be11-8abf54632a58",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_trapDoor",
+    "name": "obj_trapDoorOld",
     "eventList": [
         {
-            "id": "48cbc297-20e0-4899-8be4-20a197a65943",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "6291be58-abce-448a-9e01-208e80b3cbb3"
-        },
-        {
-            "id": "118f9ad6-eeda-46aa-8325-bc70ba6270a1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "6291be58-abce-448a-9e01-208e80b3cbb3"
-        },
-        {
-            "id": "1892e89b-a1dd-497a-9066-aa87c7669688",
+            "id": "b06a8e9d-2773-4b96-8b91-49fe05e13766",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 4,
             "eventtype": 6,
-            "m_owner": "6291be58-abce-448a-9e01-208e80b3cbb3"
+            "m_owner": "b99ad2cd-6342-429c-be11-8abf54632a58"
         },
         {
-            "id": "fe0aa285-ace3-4582-b548-63d4c838cffc",
+            "id": "9b412763-1f08-4c25-95a0-4b044d96ed9e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "6291be58-abce-448a-9e01-208e80b3cbb3"
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b99ad2cd-6342-429c-be11-8abf54632a58"
+        },
+        {
+            "id": "3037d7f7-bbc3-415c-8062-acdab9535143",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b99ad2cd-6342-429c-be11-8abf54632a58"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": true,
-    "spriteId": "8a964d94-e84f-4dff-a540-2837079cccae",
+    "spriteId": "286163b3-1f5e-45dd-992b-a7fb7b3d0107",
     "visible": true
 }

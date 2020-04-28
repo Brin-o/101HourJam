@@ -1,0 +1,20 @@
+
+trapDoorSkel.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Door
+  rotate: false
+  xy: 2, 2
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+Trap
+  rotate: false
+  xy: 2, 36
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

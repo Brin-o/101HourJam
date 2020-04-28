@@ -11,6 +11,12 @@ dam = false;
 
 
 //Bounce when hitting wall vars
-bump = false;
+bump = true;
 growCheck = true;
 bumpCheck = true;
+
+
+depth = -90
+
+
+//TweenEasyScale(1, 1, 2, 2, 0, 15, EaseInOutQuad, TWEEN_MODE_BOUNCE);
