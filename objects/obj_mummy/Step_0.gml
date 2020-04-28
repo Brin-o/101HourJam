@@ -11,7 +11,7 @@ var yDir = keyboard_check(ord("S")) - keyboard_check(ord("W")) + grv;
 
 if (xDir != 0 or yDir != 0) {
 	
-	MoveLoop( pixelsThisFrame, xDir, yDir);
+	MoveLoop( pixelsThisFrame, xDir * global.gameSpeed, yDir);
 	/*var xTarget = x + lengthdir_x(pixelsThisFrame, xDir);
 	//var yTarget = y + lengthdir_y(pixelsThisFrame, modifiedDir);
 	TweenEasyMove(x, y, xTarget, y, 0, 1, EaseLinear);*/

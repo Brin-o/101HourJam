@@ -3,10 +3,13 @@
 
 roomScore = 0;
 global.gameSpeed = 0;
+global.lv = 0;
 
 //Amount of trap doors per level;
 
 switch (global.lv) {
+	case 0: global.trapDoorNum = 0;
+		break;
 	case 1: global.trapDoorNum = 3;
 	break;
 	case 2: global.trapDoorNum = 2;
