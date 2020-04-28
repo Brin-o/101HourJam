@@ -1999,6 +1999,14 @@
             }
         },
         {
+            "Key": "d85b1f5d-b378-4b7c-858f-87f5fe4dcc76",
+            "Value": {
+                "id": "e487dbe6-a1a1-4c6b-a7eb-2ceec688313d",
+                "resourcePath": "rooms\\rm_lv6\\rm_lv6.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d9240375-a77d-40bb-b0db-6bd5fe6a7e56",
             "Value": {
                 "id": "7dfdaf0b-9bb1-4c97-ba63-1fb0ace00dd0",

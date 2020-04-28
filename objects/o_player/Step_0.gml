@@ -36,12 +36,18 @@ if dam {
 
 //Bounce 
 //TweenEasyScale(1, 1, 2, 2, 0, 15, EaseInOutQuad, TWEEN_MODE_BOUNCE);
-
+//if !inversed and !bump {
+//	TweenEasyScale(1, 1, 2, 2, 0, 15, EaseInOutQuad, TWEEN_MODE_BOUNCE);
+//	bump = true;
+//}
 if inversed and bump {
 	TweenEasyScale(1, 1, 2, 2, 0, 15, EaseInOutQuad, TWEEN_MODE_BOUNCE);
-	
 	bump = false;
+	//alarm_set(0,120);
 }
+
+
+
 //if !inversed and !bump {
 //	TweenEasyScale(1, 1, 2, 2, 0, 15, EaseInOutQuad, TWEEN_MODE_BOUNCE);
 //	bump = true;
