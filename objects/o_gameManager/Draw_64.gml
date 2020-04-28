@@ -15,5 +15,3 @@ draw_text(room_width/2-50, 124, string("Press R to restart"));
 draw_set_halign(fa_right);
 draw_text(room_width - 10 , 0, 
 		string("Toilet paper: ") + string(roomScore) + " / " + string(roomScoreMax));
-
-

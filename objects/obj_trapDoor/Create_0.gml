@@ -2,7 +2,7 @@
 // You can write your code in this editor
 skeleton_animation_set("Closed")
 open = false;
-//createCheck = false;
+
 
 
 //Smooth Transitions

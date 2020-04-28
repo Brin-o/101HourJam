@@ -52,8 +52,10 @@ for (var i = 0; i <= 90; i += 10) {
 				//switched between inversed and normal
 				if(inversed)
 					inversed = false;
+					
 				else
 					inversed = true;
+					
 			
 				movedSuccessfully = true;
 				break;

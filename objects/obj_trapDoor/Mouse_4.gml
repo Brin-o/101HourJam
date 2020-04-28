@@ -2,14 +2,19 @@
 // You can write your code in this editor
 
 
-if open {
-	skeleton_animation_set("Closing");
-	open = false;
-	solid = true;
-	mask_index = spr_trapDoor;
-}else {
-	skeleton_animation_set("Opening");
-	open = true;
-	solid = false;
-	mask_index = spr_trapDoorCollision;
-}
+
+
+////working
+//if open {
+//	skeleton_animation_set("Closing");
+//	solid = true;
+//	mask_index = spr_fullMask;
+//	open = false;
+//	//closed = true;
+//}else {
+//	skeleton_animation_set("Opening");
+//	solid = false;
+//	//mask_index = spr_trapDoorDepth;
+//	open = true;
+//}
+

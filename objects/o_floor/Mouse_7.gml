@@ -12,7 +12,7 @@
 //}
 
 if !trapdoor and global.trapDoorNum >= 1 {
-	var newTrap = instance_create_layer(x ,y,"Instances",obj_trapDoor);
+	newTrap = instance_create_layer(x ,y,"Instances",obj_trapDoorCloseCollision);
 	with newTrap {
 		//open = true;
 		//createCheck = true;
