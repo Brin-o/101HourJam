@@ -23,8 +23,8 @@
         "dafb33ba-9e73-4e23-b42c-094ccfe4e25e",
         "e76d29ac-4897-4a9b-8c14-a2228ddca7dc",
         "666e0a8c-2c53-4f0d-9e43-e1848d68896a",
-        "721809b1-eff1-409b-bc8e-4278fe24c801"
->>>>>>> master:views/b771bd30-7120-4a59-9e63-2b1d52eb9360.yy
+        "721809b1-eff1-409b-bc8e-4278fe24c801",
+        "b10dc0f8-9c78-49f8-85f8-574205f232e7"
     ],
     "filterType": "GMObject",
     "folderName": "objects",
