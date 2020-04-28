@@ -2,19 +2,21 @@
 // You can write your code in this editor
 
 
-
-
-////working
-//if open {
-//	skeleton_animation_set("Closing");
-//	solid = true;
-//	mask_index = spr_fullMask;
-//	open = false;
-//	//closed = true;
-//}else {
-//	skeleton_animation_set("Opening");
-//	solid = false;
-//	//mask_index = spr_trapDoorDepth;
-//	open = true;
-//}
-
+if open and global.gameSpeed == 0{
+	skeleton_animation_set("Closing");
+	open = false;
+	solid = true;
+	mask_index = spr_trapDoor;
+	TweenEasyScale(1, 1, 1.2, 1.2, 0, 10, EaseInOutExpo, TWEEN_MODE_BOUNCE);
+	ScreenShake(4);
+	
+} else {
+	if(global.gameSpeed == 0){
+		skeleton_animation_set("Opening");
+		open = true;
+		solid = false;
+		mask_index = spr_trapDoorCollision;
+		TweenEasyScale(1, 1, 1.2, 1.2, 0, 10, EaseInOutExpo, TWEEN_MODE_BOUNCE);
+		ScreenShake(4);
+	}
+}
