@@ -19,4 +19,7 @@ if !trapdoor and global.trapDoorNum >= 1 {
 	}
 	global.trapDoorNum -= 1;
 	instance_destroy();
+} else if (global.trapDoorNum <1) {
+	squish_x = 0.5;
+	audio_play_sound(snd_select, 1, false);
 }

@@ -12,10 +12,10 @@ var yDir = grv *  global.gameSpeed;
 var xDir = 1 * global.gameSpeed;
 
 if (xDir != 0 or yDir != 0) {
-	
+	animationState = "WALK";
 	MoveLoop( pixelsThisFrame, xDir, yDir);
-
-}
+} else
+	animationState = "IDLE";
 
 
  

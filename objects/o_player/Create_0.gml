@@ -4,8 +4,7 @@ xDir = 1;
 grv = 1;
 inversed = false;
 
-lvlCompleted = false;
-
+animationState = "IDLE"; //can be "IDLE" or "WALK"
 //Damage Taken
 dam = false;
 
@@ -23,6 +22,6 @@ bumpRight = true;
 depth = -95
 
 
-//TweenEasyScale(1, 1, 2, 2, 0, 15, EaseInOutQuad, TWEEN_MODE_BOUNCE);
-
-//TweenEasyScale(1, 1, 2, 2, 0, 15, EaseInOutQuad, TWEEN_MODE_BOUNCE);
+//Squishy Values
+squish_x = 1;
+squish_y = 1;

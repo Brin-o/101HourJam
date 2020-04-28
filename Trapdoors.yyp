@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "075e499c-9846-499c-869f-22ec9943b9d4",
+            "Value": {
+                "id": "dab44ff7-c3e9-464b-aee3-0e3ba8091c28",
+                "resourcePath": "views\\075e499c-9846-499c-869f-22ec9943b9d4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "082001ab-ed54-46a6-8d60-534c130d77ba",
             "Value": {
                 "id": "0b5efd28-cca1-4cfd-8555-32854ec18ff3",
@@ -311,6 +319,14 @@
             }
         },
         {
+            "Key": "2073e1e6-2e7c-4863-8638-a631112db994",
+            "Value": {
+                "id": "ff9fc1f4-0cc7-4a74-8ac9-a697f3661fb0",
+                "resourcePath": "sounds\\snd_lose\\snd_lose.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "21225705-43ad-4380-8ca4-618767b1fe05",
             "Value": {
                 "id": "0b264874-87af-49ed-8a4f-2d69f2bef2ca",
@@ -428,6 +444,14 @@
                 "id": "8fd106ca-3873-4c61-9257-432897ea387f",
                 "resourcePath": "scripts\\TweenCallbackEnable\\TweenCallbackEnable.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "30bc93ca-7598-4f3a-85ea-8810648187b9",
+            "Value": {
+                "id": "a7bc700b-52a3-4d43-b11b-4da96ca137bb",
+                "resourcePath": "views\\30bc93ca-7598-4f3a-85ea-8810648187b9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1855,6 +1879,14 @@
             }
         },
         {
+            "Key": "c2d16db0-eb53-4f74-8920-5ef646d69aae",
+            "Value": {
+                "id": "55b88243-81d8-4512-9ea4-002712e3a2d3",
+                "resourcePath": "views\\c2d16db0-eb53-4f74-8920-5ef646d69aae.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c3faf112-280a-41d9-8253-b8507fffe804",
             "Value": {
                 "id": "e7b37f3c-25b7-40c1-a1df-7adff492ae67",
@@ -1900,6 +1932,22 @@
                 "id": "4d2f3ad9-800d-4058-bdb9-076f6568fba1",
                 "resourcePath": "scripts\\ext_Array1D__\\ext_Array1D__.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8c9b5a6-8356-4c29-91c8-4fa683bc9422",
+            "Value": {
+                "id": "44490119-4822-4164-a46f-a52d7a221442",
+                "resourcePath": "sounds\\snd_selectWiggly\\snd_selectWiggly.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ca819ccc-7981-4839-9b93-32dbb8318b54",
+            "Value": {
+                "id": "47ebabe8-4f60-4ec7-b6cb-7d949b85d7a3",
+                "resourcePath": "views\\ca819ccc-7981-4839-9b93-32dbb8318b54.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1959,6 +2007,14 @@
             }
         },
         {
+            "Key": "d052e327-487c-4a72-8924-9345c3105353",
+            "Value": {
+                "id": "87551f20-d8a4-4c46-b9f3-1a7c480053a6",
+                "resourcePath": "sprites\\s_playerWalk\\s_playerWalk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d095ce0d-132f-4351-bb73-331727154f98",
             "Value": {
                 "id": "24728a2e-cff0-46f8-b940-2f9e011355fd",
@@ -1972,6 +2028,14 @@
                 "id": "96073358-d14d-4e03-817a-7e283934176a",
                 "resourcePath": "scripts\\TweenEasyTurn\\TweenEasyTurn.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d2fea103-0f21-4d8c-a77a-7102a21b3cd6",
+            "Value": {
+                "id": "a4e719df-eab8-4d5d-8352-f076e7277ece",
+                "resourcePath": "sounds\\snd_select\\snd_select.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2378,7 +2442,7 @@
             "Key": "ffbfdf03-744f-48a3-a2f7-e40438f9fb51",
             "Value": {
                 "id": "2878d15f-ae02-45dc-beea-d58ad961fccc",
-                "resourcePath": "sprites\\s_circle\\s_circle.yy",
+                "resourcePath": "sprites\\s_playerIdle\\s_playerIdle.yy",
                 "resourceType": "GMSprite"
             }
         }
