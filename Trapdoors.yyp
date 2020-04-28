@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "4ea3bda4-6c47-478c-9c2f-f026552e90d6",
+            "Value": {
+                "id": "64fb50ab-cba8-4058-8de6-add61cf71d97",
+                "resourcePath": "rooms\\rm_squishTesting\\rm_squishTesting.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4f520f36-c5c8-4e60-a019-1b772a3ae4c3",
             "Value": {
                 "id": "2da1a310-d6d4-4776-8ba1-6e1e9a721cf2",
@@ -1652,6 +1660,14 @@
                 "id": "afad2678-597c-473f-9db6-324d82c9112a",
                 "resourcePath": "views\\b06371f5-0790-4061-9476-6cbcb6ef8c37.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b10dc0f8-9c78-49f8-85f8-574205f232e7",
+            "Value": {
+                "id": "d6132dc9-ca36-49ce-8f5d-f439a74ced94",
+                "resourcePath": "objects\\o_squishTester\\o_squishTester.yy",
+                "resourceType": "GMObject"
             }
         },
         {
