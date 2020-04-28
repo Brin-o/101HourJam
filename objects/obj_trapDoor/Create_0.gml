@@ -3,7 +3,7 @@
 skeleton_animation_set("Closed")
 open = false;
 
-
+depth = -90;
 
 //Smooth Transitions
 skeleton_animation_mix("Opening", "Closing", 0.3);

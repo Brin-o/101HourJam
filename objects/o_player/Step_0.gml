@@ -113,4 +113,4 @@ if inversed and bump {
 //}
 
 //Depth when falling through door
-if place_meeting(x,y, obj_trapDoor) { depth = 90;}else depth = -90;
+if place_meeting(x,y, obj_trapDoor) { depth = 95;}else depth = -95;

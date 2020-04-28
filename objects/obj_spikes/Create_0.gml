@@ -3,3 +3,5 @@
 
 moveCheck = true;
 moveUp = true;
+
+moving = true;
