@@ -26,7 +26,7 @@ else if (xDir != 0 or yDir != 0) and !dam {
 }
 else
 	animationState = "IDLE";
-
+	
 
 //Kill Player when damage is taken
 if dam and damCheck{
@@ -40,3 +40,9 @@ if dam and damCheck{
 if place_meeting(x,y, obj_trapDoor){
 	depth = 95;
 }else {depth = -95;}
+
+
+//Title screen setup
+if global.lv == 0 and y > ystart + 300 {
+	with(o_wall){solid = false;}
+}
