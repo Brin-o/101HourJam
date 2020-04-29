@@ -22,3 +22,5 @@ revDir = -1;
 //Squishy Values
 squish_x = 1;
 squish_y = 1;
+squish_xVel = 0;
+squish_yVel = 0;
