@@ -6,6 +6,7 @@ xDir = 1;
 grv = 1;
 inversed = false;
 
+
 animationState = "IDLE"; //can be "IDLE" or "WALK"
 
 //Player Death

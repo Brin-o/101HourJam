@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+/*if (global.gameSpeed == 0)
+	exit;*/
 //Animation transitions
 switch (spikesDown) {
 	case true:

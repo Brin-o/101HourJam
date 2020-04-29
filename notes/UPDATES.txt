@@ -1,0 +1,18 @@
+
+1. Update all of the existing art assets -> DONE!
+
+2. Update character to not turn when falling -> Done
+3. Update moving enemy to kill on collision
+	3.1 Raider also needs to not turn when falling
+	3.2. Update spikes to not animate during pause time
+	3.3 Make it so that spikes can be set as "always on" via the object variables
+
+4. Add more levels!
+	4.1 Add a builder pickup [DONE]
+	
+
+5.1 Add squishiyness to level generation
+5.2 Add scene transitions
+5.3 Finish up the UI
+
+6.1 Add tutorial signage on the early levels

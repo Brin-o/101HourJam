@@ -3,21 +3,23 @@
 
 
 with (trapd) {
-	if open and global.gameSpeed == 0{
+	if open {
+		if (global.gameSpeed == 0 or global.lv == 1) {
 		skeleton_animation_set("Closing");
 		open = false;
 		solid = true;
 		mask_index = spr_trapDoor;
-		TweenEasyScale(1, 1, 1.2, 1.2, 0, 10, EaseInOutExpo, TWEEN_MODE_BOUNCE);
-		ScreenShake(4);
-	}else {
-		if(global.gameSpeed == 0) {
+		//trapd.TweenEasyScale(1, 1, 1.2, 1.2, 0, 10, EaseInOutExpo, TWEEN_MODE_BOUNCE);
+		squish_x = 1.4;
+		}
+	} else {
+		if(global.gameSpeed == 0 or global.lv == 0) {
 			skeleton_animation_set("Opening");
 			open = true;
 			solid = false;
 			mask_index = spr_trapDoorDepth;
-			TweenEasyScale(1, 1, 1.2, 1.2, 0, 10, EaseInOutExpo, TWEEN_MODE_BOUNCE);
-			ScreenShake(4);
+			//trapd.TweenEasyScale(1, 1, 1.2, 1.2, 0, 10, EaseInOutExpo, TWEEN_MODE_BOUNCE);
+			squish_x = 0.6;
 		}
 	}
 }

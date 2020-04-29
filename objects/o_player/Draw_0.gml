@@ -20,7 +20,7 @@ if (_sxprev != sign(1-squish_x) && abs(squish_xVel) < 0.1)
 	squish_xVel = 0;
 	squish_x = 1;
 }
-
+*/
 //draw_sprite_ext(sprite_index, image_index, x, y , squish_x, squish_y, image_angle, image_blend, image_alpha);
 
 

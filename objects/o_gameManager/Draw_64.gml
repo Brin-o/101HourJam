@@ -10,8 +10,7 @@ if (placableTraps)
 }
 //Level Number
 draw_set_halign(fa_center);
-draw_text(room_width/2, 0, string("Level: ") + string(global.lv));
-draw_text(room_width/2-50, 64, string("Press R to restart"));
+draw_text(room_width/2, 10, string("Level: ") + string(global.lv));
 
 //Draw toilet paper amount/max if it exists
 draw_set_halign(fa_right);
