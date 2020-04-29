@@ -1,26 +1,23 @@
 /// @Create direction variables
 // You can write your code in this editor
+
+//Direction
 xDir = 1;
 grv = 1;
 inversed = false;
 
 animationState = "IDLE"; //can be "IDLE" or "WALK"
-//Damage Taken
+
+//Player Death
 dam = false;
+damCheck = true;
+deathTime = 60;
 
 
-//Bounce when hitting wall vars
-bump = true;
-growCheck = true;
-bumpCheck = true;
-bumpCheck2 = false;
+//depth = -95
 
-
-bumpLeft = false;
-bumpRight = true;
-
-depth = -95
-
+//Reverse Values
+revDir = -1;
 
 //Squishy Values
 squish_x = 1;

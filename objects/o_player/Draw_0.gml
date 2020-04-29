@@ -9,4 +9,14 @@ switch (animationState) {
 		sprite_index = s_playerWalk;
 }
 
-draw_sprite_ext(sprite_index, image_index, x, y , squish_x, squish_y, image_angle, image_blend, image_alpha);
+//draw_sprite_ext(sprite_index, image_index, x, y , squish_x, squish_y, image_angle, image_blend, image_alpha);
+
+
+//Changes sprite direction
+if !inversed {
+	draw_sprite_ext(sprite_index, image_index, x, y , squish_x, squish_y, image_angle, image_blend, image_alpha);
+}
+
+if inversed {
+	draw_sprite_ext(sprite_index, image_index, x, y , revDir, squish_y, image_angle, image_blend, image_alpha);
+}

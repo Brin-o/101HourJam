@@ -1,18 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-//if moveUp {
-//	moveUp = false;
-//}
-
-switch (moveUp) {
+//Animation transitions
+switch (spikesDown) {
 	case true:
-		moveUp = false;
+		solid = true;
+		skeleton_animation_set("Spikes Up");
 		moveCheck = true;
+		spikesDown = false;
 		break;
 	case false:
-		moveUp = true;
+		skeleton_animation_set("Spikes Down");
 		moveCheck = true;
+		spikesDown = true;
 		break;
 }
+		

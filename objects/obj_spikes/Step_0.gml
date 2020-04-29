@@ -1,20 +1,18 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (moving)
-{
-	if moveUp and moveCheck{
-		TweenEasyMove(x, y, x, y-32, 0, 80, EaseInQuad);
-		alarm_set(0,300);
-		moveCheck = false;
-	}
 
-	if !moveUp and moveCheck{
-		TweenEasyMove(x, y, x, ystart, 0, 80, EaseInQuad);
-		alarm_set(0,300);
-		moveCheck = false;
-	}
+if moveCheck {
+	alarm_set(0, spikeTime);
+	moveCheck = false;
 }
 
-
-//TweenEasyRotate(0, 2160, 0, 60, EaseInQuad)
+//Kill player
+if solid and place_meeting(x-2,y,o_player) or solid and place_meeting(x+2,y,o_player){
+	with(o_player) {
+		if !dam {
+			dam = true;
+			//TweenEasyRotate(0, 2160, 0, 60, EaseInQuad)
+		}
+	}
+}
