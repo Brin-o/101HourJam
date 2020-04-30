@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_lvl10_allInOne",
+    "name": "rm_lvl12",
     "id": "67f68ffc-6d28-4a73-a9dd-1ac7cace65e4",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

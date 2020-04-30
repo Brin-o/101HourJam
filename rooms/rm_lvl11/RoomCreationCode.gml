@@ -1,0 +1,1 @@
+InitRoom(0,  "12 - Welcome home");
