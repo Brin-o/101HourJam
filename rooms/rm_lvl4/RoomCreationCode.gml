@@ -1,1 +1,1 @@
-InitRoom(2 , 4);
+InitRoom(2 , "It hurts to build");

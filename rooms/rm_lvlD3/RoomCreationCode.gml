@@ -1,1 +1,1 @@
-InitRoom(0, 1);
+InitRoom(0, "12 - Classic manouvre");
