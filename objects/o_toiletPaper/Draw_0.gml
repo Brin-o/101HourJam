@@ -5,3 +5,8 @@ if global.win {
 	depth = -90;
 	image_alpha = 1;
 }
+else if !global.win {
+	draw_sprite(sprite_index, image_index, x, y);
+	depth = -90;
+	image_alpha = 1;
+}
