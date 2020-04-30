@@ -16,3 +16,8 @@
 5.3 Finish up the UI
 
 6.1 Add tutorial signage on the early levels
+
+-- Playtesting feedback --
+7. Stop game speed on coffin because the character still move on it
+7.1 less loud sound effects on start
+7.2 indicate that pausing is a game mechanic
