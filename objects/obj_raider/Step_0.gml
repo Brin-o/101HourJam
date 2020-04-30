@@ -24,3 +24,9 @@ if inversed {
 } else{
 image_xscale = 1;
 }
+
+
+//Depth when falling through door
+if place_meeting(x,y, obj_trapDoor){
+	depth = 95;
+}else {depth = -95;}

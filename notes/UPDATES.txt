@@ -2,7 +2,7 @@
 1. Update all of the existing art assets -> DONE!
 
 2. Update character to not turn when falling -> Done
-3. Update moving enemy to kill on collision
+3. Update moving enemy to kill on collision -> Done
 	3.1 Raider also needs to not turn when falling
 	3.2. Update spikes to not animate during pause time
 	3.3 Make it so that spikes can be set as "always on" via the object variables

@@ -25,3 +25,6 @@ squish_x = 1;
 squish_y = 1;
 squish_xVel = 0;
 squish_yVel = 0;
+
+//check for coffin touch
+winCheck = true;

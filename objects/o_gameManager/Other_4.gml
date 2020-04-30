@@ -10,3 +10,7 @@ else
 placableTraps = false;
 if (global.trapDoorNum != 0)
 	placableTraps = true;
+	
+	
+//play background sounds
+audio_play_sound(snd_background, 1, false);

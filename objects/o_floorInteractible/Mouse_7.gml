@@ -12,6 +12,7 @@
 //}
 
 if !trapdoor and global.trapDoorNum >= 1 {
+	audio_play_sound(snd_doorCreate, 1, false)
 	newTrap = instance_create_layer(x ,y,"Instances",obj_trapDoorCloseCollision);
 	with newTrap {
 		//open = true;
@@ -21,5 +22,5 @@ if !trapdoor and global.trapDoorNum >= 1 {
 	instance_destroy();
 } else if (global.trapDoorNum <1) {
 	squish_x = 0.5;
-	audio_play_sound(snd_select, 1, false);
+	audio_play_sound(snd_noBuild, 1, false);
 }

@@ -6,6 +6,7 @@ with (trapd) {
 	if open {
 		if (global.gameSpeed == 0 or global.lv == 1) {
 		skeleton_animation_set("Closing");
+		audio_play_sound(snd_doorClose, 1, false);
 		open = false;
 		solid = true;
 		mask_index = spr_trapDoor;
@@ -15,6 +16,7 @@ with (trapd) {
 	} else {
 		if(global.gameSpeed == 0 or global.lv == 0) {
 			skeleton_animation_set("Opening");
+			audio_play_sound(snd_doorOpen, 1, false);
 			open = true;
 			solid = false;
 			mask_index = spr_trapDoorDepth;

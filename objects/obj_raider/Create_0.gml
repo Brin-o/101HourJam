@@ -5,6 +5,7 @@
 xDir = 1;
 inversed = false;
 grv = 1;
-depth = -90;
+
+
 //flip sprite
 //flip = false;
