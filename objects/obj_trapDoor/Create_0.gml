@@ -20,3 +20,6 @@ squish_yVel = 0;
 squish_x = 0.3;
 
 //audio_play_sound(snd_selectWiggly, 2, false);
+
+
+alpha = 1;

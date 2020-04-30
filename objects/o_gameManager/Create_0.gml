@@ -13,3 +13,7 @@ global.trapDoorNum = 0;
 
 //Play Music
 audio_play_sound(snd_music, 1, true);
+
+
+
+global.win = false;

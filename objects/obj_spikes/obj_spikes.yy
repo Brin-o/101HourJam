@@ -75,6 +75,34 @@
             "value": "True",
             "varName": "moving",
             "varType": 3
+        },
+        {
+            "id": "dfbe53b0-606f-4bb8-a234-c565b02eca58",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "alwaysOn",
+            "varType": 3
+        },
+        {
+            "id": "15ea719e-c0d9-4de3-9974-57c9d517592f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "240",
+            "varName": "spikeTime",
+            "varType": 1
         }
     ],
     "solid": true,

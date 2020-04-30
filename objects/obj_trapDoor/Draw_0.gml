@@ -20,4 +20,11 @@ else if (squish_x < 1)
 
 
 
-draw_sprite_ext(sprite_index, image_index, x, y , squish_x, squish_y, image_angle, image_blend, image_alpha);
+if !global.win {
+	draw_sprite_ext(sprite_index, image_index, x, y , squish_x, squish_y, image_angle, image_blend, image_alpha);
+}
+else if global.win {
+	if alpha > 0 {
+	alpha -= 1/obj_endGame.fadeTime;
+	}
+}

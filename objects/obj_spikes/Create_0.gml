@@ -4,17 +4,17 @@
 moveCheck = true;
 spikesDown = true;
 
-alwaysOn = false;
+//alwaysOn = false;
 
 
-moving = true;
+//moving = true;
 
 //Set start animation and time between transitions.
 
 
 
 
-spikeTime = 240;
+//spikeTime = 180;
 skeleton_animation_set("Spikes Down Stay")
 
 //if global.lv == 0 {alarm_set(0, spikeTime);}
