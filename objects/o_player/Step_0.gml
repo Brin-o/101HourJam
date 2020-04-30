@@ -13,7 +13,7 @@ var xDir = 1 * global.gameSpeed;
 
 //Movement and Item Collision
 if instance_exists(o_toiletPaper){ 
-	if (xDir != 0 or yDir != 0) and !dam and !o_toiletPaper.hit{
+	if (xDir != 0 or yDir != 0) and !dam and !o_toiletPaper.hit and winCheck{
 		animationState = "WALK";
 		MoveLoop( pixelsThisFrame, xDir, yDir);
 	}
@@ -49,12 +49,13 @@ if global.lv == 0 and y > ystart + 300 {
 }
 
 //Touching Coffin
-if place_meeting(x, y, o_coffin) and winCheck {
-	global.gameSpeed = 0;
-	winCheck = false;
-	with (o_coffin) {
-	sprite_index = s_coffingAnimated
-	}
-	audio_play_sound(snd_coffin, 1, false);
-	alarm_set(1,60);
-}
+//if place_meeting(x, y, o_coffin) or place_meeting(x+40, y, o_coffin) and winCheck {
+//	inversed = true;
+//	global.gameSpeed = 0;
+//	winCheck = false;
+//	with (o_coffin) {
+//	sprite_index = s_coffingAnimated
+//	}
+//	audio_play_sound(snd_coffin, 1, false);
+//	alarm_set(1,60);
+//}

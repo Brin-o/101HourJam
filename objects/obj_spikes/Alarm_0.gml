@@ -7,7 +7,9 @@ switch (spikesDown) {
 		if alwaysOn {
 			skeleton_animation_set("Spikes Up");
 			solid = true;
-			audio_play_sound(snd_spikes, 1, false);
+			if global.lv == 0 {audio_play_sound(snd_spikesIntro, 1, false);
+			}else{audio_play_sound(snd_spikes, 1, false);}
+			//audio_play_sound(snd_spikes, 1, false);
 			moveCheck = true;
 			spikesDown = false;
 			break;
@@ -15,7 +17,9 @@ switch (spikesDown) {
 		if (global.gameSpeed > 0) {
 			skeleton_animation_set("Spikes Up");
 			solid = true;
-			audio_play_sound(snd_spikes, 1, false);
+			if global.lv == 0 {audio_play_sound(snd_spikesIntro, 1, false);
+			}else{audio_play_sound(snd_spikes, 1, false);}
+			//audio_play_sound(snd_spikes, 1, false);
 			moveCheck = true;
 			spikesDown = false;
 			break;
@@ -24,14 +28,18 @@ switch (spikesDown) {
 	case false:
 		if alwaysOn {
 			skeleton_animation_set("Spikes Down");
-			audio_play_sound(snd_spikes, 1, false);
+			if global.lv == 0 {audio_play_sound(snd_spikesIntro, 1, false);
+			}else{audio_play_sound(snd_spikes, 1, false);}
+			//audio_play_sound(snd_spikes, 1, false);
 			moveCheck = true;
 			spikesDown = true;
 			break;
 		}
 		if (global.gameSpeed > 0) {
 			skeleton_animation_set("Spikes Down");
-			audio_play_sound(snd_spikes, 1, false);
+			if global.lv == 0 {audio_play_sound(snd_spikesIntro, 1, false);
+			}else{audio_play_sound(snd_spikes, 1, false);}
+			//audio_play_sound(snd_spikes, 1, false);
 			moveCheck = true;
 			spikesDown = true;
 			break;	

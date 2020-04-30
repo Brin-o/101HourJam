@@ -1,8 +1,8 @@
 {
-    "id": "5bb30d2f-c64c-437a-a5c6-f8da13121bc5",
+    "id": "2b7b21fb-0ca2-4e80-8956-34f267adef7f",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_toiletPaper",
+    "name": "snd_toolPickup",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

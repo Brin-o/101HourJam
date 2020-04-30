@@ -28,3 +28,4 @@ squish_yVel = 0;
 
 //check for coffin touch
 winCheck = true;
+//walkCheck = true;
