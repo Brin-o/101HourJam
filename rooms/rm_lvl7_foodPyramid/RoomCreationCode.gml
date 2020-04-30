@@ -1,1 +1,1 @@
-InitRoom( 3, 1)
+InitRoom( 3, "7 - Top of the foodchain")

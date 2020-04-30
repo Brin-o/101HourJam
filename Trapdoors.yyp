@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "07d6def8-6c1d-4967-a221-c243922a6fb8",
+            "Value": {
+                "id": "b494df03-2ec3-4a6f-b2ca-048549ad2547",
+                "resourcePath": "sprites\\s_tut_player\\s_tut_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "082001ab-ed54-46a6-8d60-534c130d77ba",
             "Value": {
                 "id": "0b5efd28-cca1-4cfd-8555-32854ec18ff3",
@@ -324,6 +332,14 @@
                 "id": "a69836c5-605a-4157-a083-07b3954130ed",
                 "resourcePath": "sprites\\s_PlayTut\\s_PlayTut.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "19bf9c66-9190-49b5-99b1-3d9384bee865",
+            "Value": {
+                "id": "16d01898-030d-40fb-9352-497325139d23",
+                "resourcePath": "objects\\o_TutWooshy\\o_TutWooshy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1871,6 +1887,14 @@
             }
         },
         {
+            "Key": "9a10a7c3-2605-4a00-93d0-73e1e5b83557",
+            "Value": {
+                "id": "fa1469c1-087e-40be-bd36-1ae662fc19ad",
+                "resourcePath": "sprites\\s_tut_wooshy\\s_tut_wooshy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b73dc9b-b399-47b2-b7d1-08b7d7e64ee6",
             "Value": {
                 "id": "7d3088a4-fbb0-401b-8173-1c8c8c62e86c",
@@ -2028,14 +2052,6 @@
                 "id": "ecb3edee-d6f7-40ee-a461-9fb290990c87",
                 "resourcePath": "scripts\\TGMS_FetchTween\\TGMS_FetchTween.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "a77028ca-283a-4167-8b2a-0cc848935201",
-            "Value": {
-                "id": "e4d3531d-13dd-4b97-9c03-b48d0844bf06",
-                "resourcePath": "rooms\\rm_lvl8_raiderApocalypse\\rm_lvl8_raiderApocalypse.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -2455,6 +2471,14 @@
             }
         },
         {
+            "Key": "c72df436-1edf-4ef8-81db-127b916eb1b3",
+            "Value": {
+                "id": "e7280568-996b-4d0a-84d7-01ff4956d63a",
+                "resourcePath": "objects\\o_TutPlayer\\o_TutPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c796fe81-f860-4899-8c6b-068cc9141cde",
             "Value": {
                 "id": "82f11412-03a2-40f0-b681-79ebcc447193",
@@ -2532,6 +2556,14 @@
                 "id": "8d3e4ec6-816a-438d-8f2a-83e8b00a0750",
                 "resourcePath": "sprites\\sUI_pause\\sUI_pause.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ceb1195b-363d-4426-93e6-5d31eb578450",
+            "Value": {
+                "id": "3a1cfe13-e0d3-4bc8-880a-45db0e0b34cf",
+                "resourcePath": "rooms\\rm_lvl10\\rm_lvl10.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2628,6 +2660,14 @@
                 "id": "7dfdaf0b-9bb1-4c97-ba63-1fb0ace00dd0",
                 "resourcePath": "rooms\\rm_lvl2\\rm_lvl2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d94439fb-a150-47fb-88aa-98bd7696f382",
+            "Value": {
+                "id": "e033bafb-e4a9-433f-97d3-c413a42d3c79",
+                "resourcePath": "objects\\o_TutPlus\\o_TutPlus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2796,6 +2836,14 @@
                 "id": "34c4883e-7bed-431a-938d-09b03920601c",
                 "resourcePath": "views\\e9256d6f-2358-4bd4-b695-32ced5bf5570.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ea410c1c-ee21-4814-807b-ac63f5b7d637",
+            "Value": {
+                "id": "b4b05260-1893-4e92-9ff2-9ca8c9e50f37",
+                "resourcePath": "objects\\o_TutBuild\\o_TutBuild.yy",
+                "resourceType": "GMObject"
             }
         },
         {

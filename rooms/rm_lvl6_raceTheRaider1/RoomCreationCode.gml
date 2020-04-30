@@ -1,1 +1,1 @@
-InitRoom( 3, 1)
+InitRoom( 3, "6 - Ready, set, walk!")

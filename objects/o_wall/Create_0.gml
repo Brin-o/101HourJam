@@ -9,7 +9,4 @@ squish_y = 1;
 
 squish_xVel = 0;
 squish_yVel = 0;
-while (squish_x == 1){
-    squish_x = random_range(0.9, 1.1);
-}
-
+alarm[0] = irandom_range(0, 10);

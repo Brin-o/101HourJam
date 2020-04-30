@@ -1,1 +1,1 @@
-InitRoom(1, 3);
+InitRoom(1, "3 - Build like a peon");

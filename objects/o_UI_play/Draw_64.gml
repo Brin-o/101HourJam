@@ -18,7 +18,6 @@ switch (buttonState) {
 squish_x = lerp( squish_x, (1 + lengthdir_x(0.05, current_time * 0.2)), 0.1 );
 squish_y = 1/(squish_x); //1 + lengthdir_y(0.025, current_time * 0.25);
 
-image_angle = 0;
 
 if (squish_x > 1)
 	squish_xVel = lerp(squish_xVel, squish_xVel - 0.1, 0.5);

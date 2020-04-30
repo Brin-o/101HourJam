@@ -11,7 +11,7 @@
 //	trapdoor = true;
 //}
 
-if !trapdoor and global.trapDoorNum >= 1 {
+if !trapdoor and global.trapDoorNum > 0 {
 	audio_play_sound(snd_doorCreate, 1, false)
 	newTrap = instance_create_layer(x ,y,"Instances",obj_trapDoorCloseCollision);
 	with newTrap {

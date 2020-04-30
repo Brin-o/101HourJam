@@ -1,1 +1,1 @@
-InitRoom(1, 5)
+InitRoom(1, "5 - Imbiamba Jombes" )

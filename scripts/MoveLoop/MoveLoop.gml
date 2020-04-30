@@ -48,7 +48,7 @@ for (var i = 0; i <= 90; i += 10) {
 			break;
 			
 		}
-		if (!place_free( x + (20 * _xDir), y) and _yDir == 0){
+		if (!place_free( x + (20 * _xDir), y) and _yDir < 0.5){
 				//switched between inversed and normal
 				if(inversed)
 					inversed = false;

@@ -1,0 +1,1 @@
+InitRoom(0,  "10 - Earn planks, build doors");

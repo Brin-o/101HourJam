@@ -5,11 +5,11 @@ trapdoor = false;
 sprite_index = choose(s_platfrom1, s_platfrom2, s_platfrom4);
 
 //Squish Set up
-squish_x = 1;
+squish_x = 0;
 squish_y = 1;
 
 squish_xVel = 0;
 squish_yVel = 0;
+alarm[0] = irandom_range(0, 15);
 
 
-squish_x = random_range(1.2, 1.4);

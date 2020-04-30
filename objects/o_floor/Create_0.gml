@@ -11,4 +11,5 @@ squish_y = 1;
 squish_xVel = 0;
 squish_yVel = 0;
 
-squish_x = random_range(1.1, 1.3);
+alarm[0] = irandom_range(0, 15);
+

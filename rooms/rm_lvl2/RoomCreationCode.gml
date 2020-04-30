@@ -1,1 +1,1 @@
-InitRoom(0, 2)
+InitRoom(0, "2 - Toiler Paper?")

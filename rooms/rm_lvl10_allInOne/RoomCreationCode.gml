@@ -1,1 +1,1 @@
-InitRoom( 3, 1)
+InitRoom( 2, "13 - Last round is free");

@@ -3,7 +3,7 @@
 //if global.lv != 0 {
 
 
-	if moveCheck and alwaysOn {
+if moveCheck and alwaysOn and (global.gameSpeed > 0) {
 		alarm_set(0, spikeTime);
 		moveCheck = false;
 	}
